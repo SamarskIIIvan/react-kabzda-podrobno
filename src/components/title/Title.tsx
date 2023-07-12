@@ -6,8 +6,8 @@ type TitlePropsType = {
 
 export function Title(props:TitlePropsType){
     return(
-     <h3>
+      <>
      {props.title}
-     </h3>
+     </>
     )
   }

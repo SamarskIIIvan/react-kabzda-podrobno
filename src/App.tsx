@@ -8,9 +8,10 @@ import { Rating } from './components/rating/Rating';
         function App() {
           return (
             <div className="App">
-              <Title title="This`s Component"/>
-              <Rating/>
+              <h1><Title title="This`s Component"/></h1>
+              <Rating value={1}/>
               <Accordion/>
+              <Rating value={3}/>
             </div>
           );
         }

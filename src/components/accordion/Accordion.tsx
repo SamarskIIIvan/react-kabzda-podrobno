@@ -4,7 +4,7 @@ import { Title } from "../title/Title";
 export function Accordion(){
     return(
       <>
-     <Title title='Menu' />
+      <h3> <Title title='Menu' /></h3>
       <ul>
         <li>1</li>
         <li>2</li>
