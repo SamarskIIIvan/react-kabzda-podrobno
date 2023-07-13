@@ -1,13 +1,13 @@
 
 type TitlePropsType = {
-    title: string
-  }
+  title: string
+}
 
 
-export function Title(props:TitlePropsType){
-    return(
-      <>
-     {props.title}
-     </>
-    )
-  }
+export function Title(props: TitlePropsType) {
+  return (
+    <>
+      {props.title}
+    </>
+  )
+}
